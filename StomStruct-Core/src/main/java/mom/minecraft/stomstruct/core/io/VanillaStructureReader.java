@@ -83,7 +83,6 @@ public class VanillaStructureReader implements IStructureReader {
 
 				if (structureBlock.containsKey("nbt")) {
 					blockNBT[i] = structureBlock.getCompound("nbt");
-					System.out.println(blockNBT[i].toSNBT());
 				}
 			}
 
