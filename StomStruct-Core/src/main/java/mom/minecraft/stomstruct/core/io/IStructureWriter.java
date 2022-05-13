@@ -10,10 +10,10 @@ import java.io.IOException;
 public interface IStructureWriter {
 
     /**
-     *
      * @param structure Structure to output
-     * @param key A unique string identifying structure to write. Could be a path or unique ID.
+     * @param key       A unique string identifying structure to write. Could be a path or unique ID.
      * @throws IOException
      */
     void write(Structure structure, String key) throws IOException;
+
 }

@@ -11,10 +11,12 @@ public interface IStructureReader {
 
     /**
      * Read a structure from some source.
+     *
      * @param key A unique string identifying structure to read. Could be a path or unique ID.
      * @return Structure
      * @throws StructureFormatException
      * @throws IOException
      */
     Structure read(String key) throws StructureFormatException, IOException;
+
 }
